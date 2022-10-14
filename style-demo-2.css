@@ -1,0 +1,98 @@
+:root{
+    --primary-color: #805AD5;
+    --cta-color:#12CCB0;
+    --white:#fff;
+    --secoundar-color:#E2EBF1;
+
+}
+hr{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* nav */
+.nav_container{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.btn_bg_cta {
+    background-color: var(--cta-color);
+    color: var(--white);
+}
+.btn_bg{
+    background-color: var(--secoundar-color);
+}
+.nav-mobile-text{
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+/* hero */
+.hero{
+    background: url(./screen-2.png);
+    background-repeat: no-repeat;
+    background-position: 25vw 50vh;
+    height: 100vh;
+}
+.hero_intro{
+    margin-top: 107px;
+    font-size: 46px;
+    font-weight: 500;
+}
+.hero_list{
+    list-style: none;
+    padding-left: 0;    
+}
+.form_container{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.form-box{
+    margin-top: 107px;
+    /* background: #fff; */
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12); */
+/* border-radius: 10px; */
+padding: 10px 50px;
+max-width: 500px;
+}
+.form_text{
+    margin-top: 10px;
+    font-size: 13px;
+    /* line-height: 12px; */
+    letter-spacing: 0.07 px;
+}
+.form_btn{
+            margin: 20px auto;
+            background: #fff;
+            color: var(--primary-color);
+            width: 320px;
+}
+
+@media only screen and (max-width: 600px){
+    .hero{
+        height: max-content;
+    }
+}
+
+/* testimonial */
+.testimonial{
+    margin-top: 107px;
+}
+
+/* portfolio */
+.portfolio{
+    margin-top: 107px;
+}
+.img_shadow{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15)
+}
+
+/* contact */
+.contact{
+    margin-top: 107px;
+}
